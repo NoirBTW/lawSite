@@ -1,12 +1,45 @@
-# React + Vite
+# LawSite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Современный веб-сайт для юридической компании, построенный на Vite + React + SCSS модулях.
 
-Currently, two official plugins are available:
+## Технологии
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite** - быстрый инструмент сборки
+- **React** - библиотека для создания пользовательских интерфейсов
+- **SCSS модули** - стилизация с поддержкой CSS модулей
+- **ESLint** - линтер для качества кода
 
-## Expanding the ESLint configuration
+## Установка и запуск
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
+npm run dev
+
+# Сборка для продакшена
+npm run build
+
+# Предварительный просмотр сборки
+npm run preview
+```
+
+## Структура проекта
+
+```
+src/
+├── assets/          # Статические ресурсы
+├── components/      # React компоненты
+├── styles/          # SCSS модули
+├── App.jsx          # Главный компонент
+└── main.jsx         # Точка входа
+```
+
+## Особенности
+
+- 🚀 Быстрая сборка с Vite
+- 🎨 Модульные SCSS стили
+- ⚛️ Современный React с JSX
+- 📱 Адаптивный дизайн
+- 🔧 Готовая конфигурация ESLint
