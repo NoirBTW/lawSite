@@ -1,0 +1,268 @@
+.contacts-page {
+  padding-top: 0; /* Убираем padding-top, так как margin-top уже добавлен в main */
+}
+
+.contacts-hero {
+  background: linear-gradient(135deg, #034741 0%, #03312d 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.contacts-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #49a86e;
+}
+
+.contacts-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.contacts-content {
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.contacts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  color: #1a3d2e;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form p {
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateX(5px);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.contact-details h3 {
+  color: #1a3d2e;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.contact-details p,
+.contact-details a {
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #1a3d2e;
+  transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+  color: #0f2a1f;
+}
+
+.company-info {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #e9ecef;
+  border-radius: 10px;
+}
+
+.company-info h3 {
+  color: #1a3d2e;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.company-info p {
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.contact-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  color: #666;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #1a3d2e;
+}
+
+.form-group select {
+  background: white;
+}
+
+.submit-btn {
+  width: 100%;
+  background: #1a3d2e;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background: #0f2a1f;
+}
+
+.map-section {
+  background: #f8f9fa;
+  padding: 4rem 0;
+}
+
+.map-section h2 {
+  text-align: center;
+  color: #1a3d2e;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.map-placeholder {
+  background: white;
+  border-radius: 15px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.map-content h3 {
+  color: #1a3d2e;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.map-content p {
+  color: #666;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Мобильные стили */
+@media (max-width: 768px) {
+  .contacts-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .contacts-hero {
+    padding: 2rem 0;
+  }
+
+  .contacts-content {
+    padding: 2rem 0;
+  }
+
+  .contacts-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact-item {
+    padding: 1rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  .map-section h2 {
+    font-size: 2rem;
+  }
+
+  .map-placeholder {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts-hero h1 {
+    font-size: 2rem;
+  }
+
+  .contact-info h2,
+  .contact-form h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-icon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .contact-form {
+    padding: 1rem;
+  }
+
+  .map-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .map-placeholder {
+    padding: 1.5rem;
+  }
+}
