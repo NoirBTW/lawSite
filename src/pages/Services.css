@@ -1,5 +1,5 @@
 .services-page {
-  padding-top: 0; /* Убираем padding-top, так как margin-top уже добавлен в main */
+  padding-top: 0;
 }
 
 .services-hero {
@@ -12,7 +12,7 @@
 .services-hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #49a86e;
+  color: #63df92;
 }
 
 .services-hero p {

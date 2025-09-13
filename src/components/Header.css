@@ -24,9 +24,10 @@
 
 .logo h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  color: #49a86e;
+  color: #63df92;
+  font-family: 'Pravda', Arial, sans-serif;
 }
 
 .logo span {
@@ -57,7 +58,7 @@
 
 .header-contact .phone {
   text-decoration: none;
-  color: #49a86e;
+  color: #63df92;
   font-weight: bold;
   font-size: 1.1rem;
 }

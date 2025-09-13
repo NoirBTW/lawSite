@@ -52,13 +52,13 @@ const Contacts = () => {
           <div className="contacts-grid">
             <div className="contact-info">
               <h2>Контактная информация</h2>
-              <div className="contact-item">
+              {/* <div className="contact-item">
                 <div className="contact-icon">📍</div>
                 <div className="contact-details">
                   <h3>Адрес</h3>
                   <p>адрес</p>
                 </div>
-              </div>
+              </div> */}
               <div className="contact-item">
                 <div className="contact-icon">📞</div>
                 <div className="contact-details">
@@ -91,9 +91,6 @@ const Contacts = () => {
               <div className="company-info">
                 <h3>Реквизиты компании</h3>
                 <p>ЮРИДИЧЕСКОЕ СООБЩЕСТВО "ПРАВОВЕД"</p>
-                <p>ОГРН: 1430204982</p>
-                <p>ИНН: 32948298479</p>
-                <p>КПП: 770201001</p>
               </div>
             </div>
 
@@ -149,6 +146,23 @@ const Contacts = () => {
                     onChange={handleChange}
                     placeholder="Опишите вашу проблему или вопрос"
                   ></textarea>
+                  <label
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "8px",
+                      lineHeight: 1.2,
+                    }}
+                  >
+                    <input
+                      type="checkbox"
+                      required
+                      id="privacy-checkbox"
+                      style={{ margin: "13px", maxWidth: "13px" }}
+                    />
+                    Отмечая этот флажок, вы подтверждаете, что согласны с
+                    политикой конфиденциальности.
+                  </label>
                 </div>
                 <button type="submit" className="submit-btn">
                   Отправить сообщение
@@ -159,7 +173,7 @@ const Contacts = () => {
         </div>
       </div>
 
-      <div className="map-section full-width-section">
+      {/* <div className="map-section full-width-section">
         <div className="container">
           <h2>Как нас найти</h2>
           <div className="map-placeholder">
@@ -170,7 +184,7 @@ const Contacts = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

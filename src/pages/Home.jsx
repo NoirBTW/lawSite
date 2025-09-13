@@ -142,6 +142,15 @@ const Home = () => {
                 placeholder="Опишите вашу проблему или вопрос"
                 required
               />
+              <label style={{ display: "flex", alignItems: "center", gap: "8px", lineHeight: 1.2 }}>
+                <input
+                  type="checkbox"
+                  required
+                  id="privacy-checkbox"
+                  style={{ margin: "13px", maxWidth: "13px" }}
+                />
+                Отмечая этот флажок, вы подтверждаете, что согласны с политикой конфиденциальности.
+              </label>
             </div>
             <button type="submit" className="submit-btn">
               Получить консультацию
@@ -158,12 +167,9 @@ const Home = () => {
       <section className="hero full-width-section">
         <div className="hero-container">
           <div className="hero-content">
-            <h1>НАЗВАНИЕ</h1>
+            <h1>ПРАВОВЕД</h1>
             <p className="hero-subtitle">
-              Текст <strong>важный текст</strong>текст.
-            </p>
-            <p className="hero-highlight">
-              <strong>Важный текст</strong> текст!
+              <strong>ЮРИДИЧЕСКОЕ СООБЩЕСТВО</strong>
             </p>
             <button
               className="cta-button"

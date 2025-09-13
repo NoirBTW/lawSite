@@ -49,6 +49,9 @@ const Reviews = () => {
                   <div className="reviewer-info">
                     <h3>{review.name}</h3>
                   </div>
+                  <div className="review-rating">
+                    <div className="stars">★★★★★</div>
+                  </div>
                 </div>
                 <div className="review-text">
                   <p>"{review.text}"</p>
@@ -59,14 +62,6 @@ const Reviews = () => {
               </div>
             ))}
           </div>
-        </div>
-      </div>
-
-      <div className="leave-review-section full-width-section">
-        <div className="container">
-          <h2>Оставить отзыв</h2>
-          <p>Поделитесь своим опытом работы с нами</p>
-          <button className="leave-review-btn">Написать отзыв</button>
         </div>
       </div>
     </div>

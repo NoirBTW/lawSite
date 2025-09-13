@@ -1,5 +1,5 @@
 .home {
-  padding-top: 0; /* Убираем padding-top, так как margin-top уже добавлен в main */
+  padding-top: 0;
 }
 
 .container {
@@ -16,7 +16,7 @@
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 4rem 0;
+  padding: 6rem 0;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7); /* 0.4 — степень затемнения, можно менять */
+  background: rgba(0, 0, 0, 0.7);
   z-index: 2;
   pointer-events: none;
 }
@@ -44,10 +44,11 @@
 }
 
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
-  color: #49a86e;
+  color: #63df92;
+  font-family: 'Pravda', Arial, sans-serif;
 }
 
 .hero-subtitle {

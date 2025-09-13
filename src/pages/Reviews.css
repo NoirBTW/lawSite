@@ -1,6 +1,5 @@
 .reviews-page {
-  padding-top: 0; /* Убираем padding-top, так как margin-top уже добавлен в main */
-  /* Обеспечиваем корректную работу прокрутки */
+  padding-top: 0;
   overflow-x: hidden;
   position: relative;
 }
@@ -10,13 +9,12 @@
   color: white;
   padding: 4rem 0;
   text-align: center;
-  /* Убираем проблемные стили, которые могут мешать прокрутке */
 }
 
 .reviews-hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #49a86e;
+  color: #63df92;
 }
 
 .reviews-hero p {
@@ -26,7 +24,6 @@
 
 .reviews-content {
   padding: 4rem 0;
-  /* Убираем проблемные стили, которые могут мешать прокрутке */
 }
 
 .reviews-stats {
@@ -147,7 +144,6 @@
   background: #f8f9fa;
   padding: 4rem 0;
   text-align: center;
-  /* Убираем проблемные стили, которые могут мешать прокрутке */
 }
 
 .leave-review-section h2 {
